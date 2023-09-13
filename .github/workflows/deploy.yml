@@ -35,7 +35,7 @@ jobs:
       - name: Deploy Web
         uses: peaceiris/actions-gh-pages@v3
         with:
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
+          PERSONAL_TOKEN: ${{ secrets.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 }}
           external_repository: NIL-zhuang/nil-zhuang.github.io
           publish_branch: main
           publish_dir: ./public
